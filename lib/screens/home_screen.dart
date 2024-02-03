@@ -30,10 +30,6 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors_Constants.primary.shade200,
         title: const Text('Todo List',style: TextStyle(fontWeight: FontWeight.w600),),
         centerTitle: true,
-        actions: [
-
-          const SizedBox(width: 15,)
-        ],
       ),
       body: tasks.isEmpty
           ?
