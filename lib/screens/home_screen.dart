@@ -47,7 +47,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 setState(() {
                   task.isTaskDone = !task.isTaskDone;
                 });
-                // Implement task completion logic
               },
               onPressed: () {
                 context.read<TaskProvider>().deleteTask(task);
